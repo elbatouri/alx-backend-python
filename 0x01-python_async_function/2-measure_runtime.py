@@ -2,7 +2,7 @@
 '''Task 2's.
 '''
 import asyncio
-from time import perf_counter
+import time
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
 
