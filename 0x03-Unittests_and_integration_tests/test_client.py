@@ -8,6 +8,7 @@ import json
 import unittest
 from unittest.mock import patch, PropertyMock, Mock
 
+
 class TestGithubOrgClient(unittest.TestCase):
     """ Class for Testing the GitHub Organization Client """
 
@@ -38,7 +39,7 @@ class TestGithubOrgClient(unittest.TestCase):
     def test_public_repos(self, mock_json):
         """
         Test that the list of repos matches the chosen payload.
-        Also, ensure that the mocked property and the mocked get_json were called once.
+        Also, ensure that the mocked property and the mocked .
         """
         json_payload = [{"name": "Google"}, {"name": "Twitter"}]
         mock_json.return_value = json_payload
