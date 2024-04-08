@@ -2,8 +2,6 @@
 """
 Unit test Test client
 """
-
-
 import unittest
 from urllib import response
 from parameterized import parameterized, parameterized_class
